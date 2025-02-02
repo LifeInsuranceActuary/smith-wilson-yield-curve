@@ -27,10 +27,11 @@ Swap_data = np.array([
             t2=60                     # Convergence maturity (60 years)
         )
 
-Output - 6 dimensions:
+Output - 6 arrays  & alfa
 - discount
 - yld_intensity
 - zero_ac
 - fw_intensity
 - forward_cc
 - forward_ac
+- Alfa 
