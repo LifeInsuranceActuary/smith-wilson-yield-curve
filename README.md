@@ -5,7 +5,8 @@ A Python implementation of the Smith-Wilson method for yield curve interpolation
 This library takes annual swap data and converts it into a spot rate curve.
 
 Usage - Example:
-    Swap_data = np.array([
+
+Swap_data = np.array([
             [1, 1.0, 0.0092],
             [1, 2.0, 0.0106],
             [1, 3.0, 0.011],
@@ -13,7 +14,7 @@ Usage - Example:
             [1, 5.0, 0.0138], 
             [1, 6.0, 0.0169],
             [1, 10.0, 0.0219],
-            [1, 20.0, 0.0295])
+            [1, 20.0, 0.0295]])
     
     sw = SmithWilson()
 
