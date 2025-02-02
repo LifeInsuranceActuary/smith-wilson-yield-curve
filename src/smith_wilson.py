@@ -222,14 +222,8 @@ class SmithWilson:
         return alfa, gamma
     
 
-
-
-
-
-
-
 if __name__ == "__main__":
-    #Basic Test
+    #
     
     # Initialize Smith-Wilson calculator
     sw = SmithWilson()
@@ -258,6 +252,6 @@ if __name__ == "__main__":
     
     print(alfa)
     for year in range(30):
-            discount = result[year, 0]
+            discount = result[year, 2]
             print(f"{year:4d} | {discount:14.6f}")
 
