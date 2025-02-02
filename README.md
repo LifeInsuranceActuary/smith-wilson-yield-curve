@@ -6,7 +6,7 @@ This library takes annual swap data and converts it into a spot rate curve.
 
 Usage - Example:
 
-Swap_data = np.array([
+            swap_data = np.array([
             [1, 1.0, 0.0092],
             [1, 2.0, 0.0106],
             [1, 3.0, 0.011],
@@ -19,7 +19,7 @@ Swap_data = np.array([
     sw = SmithWilson()
 
     result,alfa = sw.smith_wilson_brute_force(
-            data=sample_data,         # swap data
+            data=swap_data,           # swap data
             cra=0,                    # Credit Risk Adjustment (10 basis points)
             ufr_ac=0.042,             # Ultimate Forward Rate (4.2%)
             alfa_min=0.05,            # Minimum alpha value
